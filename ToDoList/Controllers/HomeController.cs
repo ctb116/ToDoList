@@ -5,8 +5,9 @@ namespace ToDoList.Controllers
 {
     public class HomeController : Controller
     {
-        [HttpGet("/")]
-        public ActionResult Index()
+        // public string Index() => "Hello from Tickets!";
+        // [HttpGet("/")]
+        public IActionResult Index()
         {
             return View();
         }

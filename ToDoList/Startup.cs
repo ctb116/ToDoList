@@ -26,6 +26,9 @@ namespace ToDoList
 
         public void Configure(IApplicationBuilder app)
         {
+          // loggerFactory.AddConsole(Configuration.GetSection("Logging"));
+          // loggerFactory.AddingDebug();
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
